@@ -116,4 +116,11 @@ input:invalid{
 }
 
 /* quote or the first section in the right side */
+.quote{
+    padding: 13% 20% 6% 6%;
+    font-weight: 700;
+    max-inline-size: 66ch;
+    color: rgba(21, 22, 22);
+}
+
 
