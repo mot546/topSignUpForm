@@ -73,7 +73,7 @@ body {
 }
 
 .sign-up-form{
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     padding: 0 6% 6% ;
     color: rgba(68, 75, 87);
 }
@@ -123,4 +123,27 @@ input:invalid{
     color: rgba(21, 22, 22);
 }
 
+/* this is the 3rd section */
 
+.third-section{
+    padding: 6%;
+}
+
+button{
+    font-size: 1rem;
+    padding: 2.3% 8%;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(89, 109, 72);
+    box-shadow:  0 4px 9px rgba(0, 0, 0, 0.2);
+}
+
+a:link, a:visited{
+    color:rgba(89, 109, 72);
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+}
