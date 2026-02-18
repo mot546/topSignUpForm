@@ -5,20 +5,22 @@
 }
 
 body {
-    display: flex;
     margin: 0;
     padding: 0;
     left: 0;
     width: 100%;
+    display:flex;
+    
 }
 
 .odin-logo{
     background: url(./halie-west-25xggax4bSA-unsplash.jpg);
-    width: 30vw;
+    flex: 0 0 25%;
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative
+    position: relative;
+    margin: 0;
 }
 
 .logo-container {
@@ -35,12 +37,24 @@ body {
 }
 
 .logo-container img{
-    width: clamp(3rem, 8vw, 10rem);
+    width: clamp(2rem, 20%, 10rem);
     height: auto;
 }
 
 .logo-container h1{
     text-align: center;
     font-family: 'norse';
-    font-size: clamp(2rem, 10vw, 10rem);
+    font-size: clamp(2rem, 80px, 10rem);
+}
+
+.input-group{
+    display: flex;
+    
+}
+
+.right-side{ 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px;
 }
